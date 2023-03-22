@@ -7,3 +7,6 @@ For this project will be pulling from two sources: yearly flight data and yearly
 For the database we will be using NoSQL, or non-relational database specifically, MongoDB with PyMongo. 
 
 We are looking to find out if there is a correlation between ticket prices and trips taken. 
+
+## Project Report
+
