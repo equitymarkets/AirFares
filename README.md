@@ -12,7 +12,9 @@ As a team, we decided to look into the transportation industry for our Extract, 
 For this project we will be pulling from two sources, both available from the U.S. Bureau of Transportation Statistics: 
 1. Yearly fuel data : (https://www.eia.gov/dnav/pet/hist/eer_epjk_pf4_rgc_dpgD.htm) and
 2. Yearly ticket price information (https://www.transtats.bts.gov/AverageFare/)
+
 Both sources are available in csv format, over a 22 year period. 
+
 We decided agaisnt using an additional dataset https://diybigdata.net/2019/12/airline-flight-data-analysis-data-preparation-reprise/ which contained extensive flight data including trips, routes, distance and arrival and departure cities, because of the size and scope of the files. However, we were able to draw some meaningful insights from the dataset which further informed the analysis and appraoch we adopted in our project. 
 
 For the database we will be using NoSQL, or non-relational database specifically, MongoDB with PyMongo. After cleaning, the csv's will be loaded through the terminal in the resources folder that holds the csvs, then analyzed using a Jupyter Notebook. 
