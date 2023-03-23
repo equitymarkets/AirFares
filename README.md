@@ -21,6 +21,18 @@ For the database we will be using NoSQL, or non-relational database specifically
 
 Our overaching goal is to investigate the possibility of a correlaton between fuel and ticket prices through an extensive timeframe which encapsulates major impact-having-events including 9/11 of 2001, the Great Financial Crises of 2007 and the  2020 Covid-19 Pandemic.
 
+#### Average Fares Data Transform
+
+Numpy as Pandas were imported.
+
+To read in all of the AverageFare_Annual csv files, a for loop was created to read through each file. As the dataframes were created they were appended to a list. Some files needed to be edited (mainly using skiprows) in order to get the proper column headings. 
+
+From this list of dataframes, we take the Average Fare ($) column from the ten most popular airports and append them to their own list using a for loop. A nested for loop was implemented in order to convert all values to floats. 
+
+Once we have ten lists, for each of the ten airports we chose, from the time frame of 2000 to 2021, it gets converted into a dataframe. Since each airport is a column, the dataframe is transposed so each airport is a row instead for clarity and better readability of the data.
+
+The dataframe is then exported to the Resources folder as a csv file. 
+
 #### PROJECT REPORT
 
 There were several challenges in extracting and transforming the data. 
