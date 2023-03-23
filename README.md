@@ -23,22 +23,19 @@ We decided agaisnt using an additional dataset https://diybigdata.net/2019/12/ai
 For the database we will be using NoSQL, or non-relational database specifically, MongoDB with PyMongo. After cleaning, the csv's will be loaded through the terminal in the resources folder that holds the csvs, then analyzed using a Jupyter Notebook. 
 
 #### THE PROJECT IN STEPS
-Step One: The project will begin by collecting data on jet fuel prices and airline ticket prices from our sources highlighted above. The data will then be cleaned and transformed to ensure that it is consistent and accurate. This process involves removing duplicate records, handling missing data, and standardizing data formats.
 
-Step Two: Once the data has been cleaned and transformed, it will be loaded into a database for analysis. The analysis will involve using statistical techniques to identify any correlations between jet fuel prices and airline ticket prices. The project will also investigate whether major global events, such as natural disasters or political crises, have an impact on airline ticket prices and to what extent. Our analysis will also shine light of seasonal ticket prices. ie: which parts of the years are tickets cheapest and most expensive
+**Step One**: The project will begin by collecting data on jet fuel prices and airline ticket prices from our sources highlighted above. The data will then be cleaned and transformed to ensure that it is consistent and accurate. This process involved removing duplicate records, handling missing data, and standardizing data formats.
 
-Step Three: The results of the analysis will be presented in a report, which will include visualizations and explanations of the findings. The report will provide insights we deducted in step two and this information can be potentially useful for airlines and other industry stakeholders in making pricing and business decisions as well as individuals trying to make an informed decisons on when to purchse plane tickets.
+**Step Two**: Once the data has been cleaned and transformed, it will be loaded into a database for analysis. The analysis will involve using statistical techniques to identify any correlations between jet fuel prices and airline ticket prices. The project will also investigate whether major global events, such as natural disasters or political crises, have an impact on airline ticket prices and to what extent. Our analysis will also shine light of seasonal ticket prices. ie: which parts of the years are tickets cheapest and most expensive
+
+**Step Three**: The results of the analysis will be presented in a report, which will include visualizations and explanations of the findings. The report will provide insights we deducted in step two and this information can be potentially useful for airlines and other industry stakeholders in making pricing and business decisions as well as individuals trying to make an informed decisons on when to purchse plane tickets.
 
 #### THE BOTTOM LINE
 
-Our overaching goal is to investigate the possibility of a correlaton between fuel and ticket prices through an extensive timeframe which encapsulates major impact-having-events including 9/11 of 2001, the Great Financial Crises of 2007 and the 2020 Covid-19 Pandemic. We will alos like to draw some seasonal patterns in our air-tikets data concerning fluctuations in prices throughout the years.
-
-
-
-
-
+Our **overaching goal** is to investigate the **possibility of a correlaton between fuel and ticket prices** through an extensive timeframe which encapsulates major impact-having-events including 9/11 of 2001, the Great Financial Crises of 2007 and the 2020 Covid-19 Pandemic. We will also like to draw some seasonal patterns in our air-tickets data concerning fluctuations in prices throughout the years.
 
 #### Average Fares Data Transform
+
 Steps implemented include:
 1. Numpy as Pandas was imported.
 2. To read in all of the AverageFare_Annual csv files, a 'for loop' was created to loop through each file. 
