@@ -20,5 +20,6 @@ Our overaching goal is to investigate the possibility of a correlaton between fu
 
 #### Project Report
 
-There were several challenges in extracting and transforming the data. The passenger and airline price CSVs were not formatted to cleanly fit into a database format. To clean them we had to delete the top row as well as the bottom three rows. 
+There were several challenges in extracting and transforming the data. 
+The passenger and airline price CSVs were not formatted to cleanly fit into a database format. To clean them, we had to delete the top row as well as the bottom three rows. 
 
