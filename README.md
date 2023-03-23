@@ -2,7 +2,7 @@
 
 ## Project Proposal
 
-For this project we will be pulling from two sources, both available from the U.S. Bureau of Transportation Statistics: yearly fuel data () and yearly ticket price information (https://www.transtats.bts.gov/AverageFare/), both available in csv format, over a 22 year period. 
+For this project we will be pulling from two sources, both available from the U.S. Bureau of Transportation Statistics: yearly fuel data (https://www.eia.gov/dnav/pet/hist/eer_epjk_pf4_rgc_dpgD.htm) and yearly ticket price information (https://www.transtats.bts.gov/AverageFare/), both available in csv format, over a 22 year period. 
 
 For the database we will be using NoSQL, or non-relational database specifically, MongoDB with PyMongo. After cleaning, the csvs will be loaded through the terminal in the resources folder that holds the csvs, then analyzed using a Jupyter Notebook. 
 
