@@ -62,7 +62,12 @@ Steps implemented include:
 7. Combining average fare prices with average fuel prices, 2000-2021 using the 'concat()' method.
 8. Dividing fare price by fuel price to show a real decrease in air fares vs. price of jet fuel
 
+<img width="331" alt="Screenshot 2023-03-23 at 9 34 13 PM" src="https://user-images.githubusercontent.com/114604829/227401967-d6ed735b-d509-489f-a57c-beccb59e0d91.png">
+
 <img width="664" alt="Screenshot 2023-03-23 at 9 32 19 PM" src="https://user-images.githubusercontent.com/114604829/227401750-970a3dbf-fc9c-4d54-955a-a35f9099b4a0.png">
+
+While glancing at the dataframe you can see that fare prices, in nominal terms, have dropped but the difference is even more pronounced when you plot the nominal price over fuel costs. While lows were reached in 2007, this ratio, up until 2021, was falling.
+
 
 
 
