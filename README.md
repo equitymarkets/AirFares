@@ -52,6 +52,22 @@ Steps implemented include:
 
 #### II. Jet Fuel vs Ticket Prices
 
+Steps implemented include:
+1. Dependencies Imported (pymongo, pandas, matplotlib, pprint etc)
+2. Checking to make sure our database was loded into MongoDB 
+3. Setting up a Pandas DataFrame for fuel price
+4. Setting up a Pandas DataFrame for fare prices
+5. Creating a Pandas Series using yearly average prices from the 10 busiest US airports
+6. Creating a Series for fuel prices, averages are grouped by all possible days for each year (about 250 / year)
+7. Combining average fare prices with average fuel prices, 2000-2021 using the 'concat()' method.
+8. Dividing fare price by fuel price to show a real decrease in air fares vs. price of jet fuel
+
+<img width="664" alt="Screenshot 2023-03-23 at 9 32 19 PM" src="https://user-images.githubusercontent.com/114604829/227401750-970a3dbf-fc9c-4d54-955a-a35f9099b4a0.png">
+
+
+
+
+
 
 #### PROJECT LIMITATIONS AND SETBACKS
 
