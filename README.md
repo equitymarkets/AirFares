@@ -35,9 +35,9 @@ For the database we will be using NoSQL, or non-relational database specifically
 Our **overaching goal** is to investigate the **possibility of a correlaton between fuel and ticket prices** through an extensive timeframe which encapsulates major impact-having-events including 9/11 of 2001, the Great Financial Crises of 2007 and the 2020 Covid-19 Pandemic. We will also like to draw some seasonal patterns in our air-tickets data concerning fluctuations in prices throughout the years.
 
 
-#### PROJECT REPORT
+### PROJECT REPORT
 
-#### **Average Fares Data Transform**
+#### I. Average Fares Data Transform
 
 Steps implemented include:
 1. Numpy as Pandas was imported.
@@ -50,7 +50,7 @@ Steps implemented include:
 8. The dataframe is then exported to the Resources folder as a csv file. 
 
 
-#### Jet Fuel vs Ticket Prices
+#### II. Jet Fuel vs Ticket Prices
 
 
 #### PROJECT LIMITATIONS AND SETBACKS
