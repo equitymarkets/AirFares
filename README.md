@@ -75,7 +75,7 @@ While glancing at the dataframe you can see that fare prices, in nominal terms, 
 
 * Airline ticket prices at the biggest airports, on average, have not risen even in nominal terms over the past 22 years. 
 * Fuel prices have risen over the 22 year period but are down from a peak in 2012. 
-* When plotting ticket prices over fuel prices, we see that the drop is even greater, but this ratio is indeed volatile, with the high and low range measured in the approximate four year span of 2001 - 2005. 
+* When plotting ticket prices over fuel prices, we see that the drop is even greater, but this ratio is indeed volatile. 
 
 
 
