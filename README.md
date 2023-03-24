@@ -62,7 +62,8 @@ Steps implemented include:
 7. Combining average fare prices with average fuel prices, 2000-2021 using the 'concat()' method.
 8. Dividing fare price by fuel price to show a real decrease in air fares vs. price of jet fuel
 
-<img width="331" alt="Screenshot 2023-03-23 at 9 34 13 PM" src="https://user-images.githubusercontent.com/114604829/227401967-d6ed735b-d509-489f-a57c-beccb59e0d91.png">
+<img width="661" alt="Screenshot 2023-03-23 at 9 35 01 PM" src="https://user-images.githubusercontent.com/114604829/227402099-b8d57085-52b9-4e8b-a7c1-c23e23d8267b.png">
+
 
 <img width="664" alt="Screenshot 2023-03-23 at 9 32 19 PM" src="https://user-images.githubusercontent.com/114604829/227401750-970a3dbf-fc9c-4d54-955a-a35f9099b4a0.png">
 
