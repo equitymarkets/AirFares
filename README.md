@@ -1,7 +1,7 @@
 # Group Project 2 : ETL Project
 ## Transportation Data Integration 
 
-### Project Proposal
+### PROJECT PROPOSAL
 
 #### PROJECT BLURB
 This project involves building a data pipeline that extracts data from various sources, transforms it into a suitable format, and loads it into a target database or data warehouse.
