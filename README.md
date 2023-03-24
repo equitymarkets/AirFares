@@ -20,7 +20,7 @@ We decided agaisnt using an additional dataset https://diybigdata.net/2019/12/ai
 
 #### PROJECT DATA BASE
 
-For the database we will be using NoSQL, or non-relational database specifically, MongoDB with PyMongo. After cleaning, the csv's will be loaded through the terminal in the resources folder that holds the csvs, then analyzed using a Jupyter Notebook. 
+For the database we will be using NoSQL, or non-relational database specifically, MongoDB with PyMongo. After cleaning, the csvs will be loaded through the terminal in the resources folder that holds the csvs, then analyzed using a Jupyter Notebook. 
 
 #### THE PROJECT IN STEPS
 
