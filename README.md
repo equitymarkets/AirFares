@@ -64,7 +64,7 @@ Steps implemented include:
 
 <img width="661" alt="Screenshot 2023-03-23 at 9 35 01 PM" src="https://user-images.githubusercontent.com/114604829/227402099-b8d57085-52b9-4e8b-a7c1-c23e23d8267b.png">
 
-## (insert point 8 analysis here)
+We can see here that although prices of both fuel and tickets are volatile, the fare price / fuel price ratio is quite low, but was actually even lower in 2011. 
 
 
 <img width="664" alt="Screenshot 2023-03-23 at 9 32 19 PM" src="https://user-images.githubusercontent.com/114604829/227401750-970a3dbf-fc9c-4d54-955a-a35f9099b4a0.png">
