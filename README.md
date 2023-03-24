@@ -83,7 +83,7 @@ While glancing at the dataframe you can see that fare prices, in nominal terms, 
 
 During our project we encountered some limitations and setbacks that we have chosen to highlight below: 
 1. We deleted all extraneous files at the end of the project, some of which were used to compose the fuel_prices_since_2000.csv file. While we felt they were not needed in the actual analysis, they are available upon request. 
-2. Because we cleaned our data to not be split by days, months, and years and just maintained a yearly breakdown, our deductions aren't based on 'longitudinal anaysis' like week-to-week or month to month analysis. This can potentially lead to undue emphasis placed on our coclusions. 
+2. Because we cleaned our data to not be split by days, months, and years and just maintained a yearly breakdown, our deductions aren't based on 'longitudinal anaysis' like week-to-week or month to month analysis. This can potentially lead to undue emphasis placed on our conclusions. 
 3. Because our sources came from two different places, a lot of work had to go into reformatting both datasets so they are able to merge smoothly for analyses.
 4. The passenger and airline price CSVs were not formatted to cleanly fit into a database format. To clean them, we had to delete the top row as well as the bottom three rows. 
 5. Although we attempted to scrape the data from the BTS, csvs were available for download and proved to be nominally cleaner and easier to deal with. 
