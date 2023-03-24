@@ -16,7 +16,7 @@ For this project we will be pulling from two sources, both available from the U.
 
 Both sources are available in csv format, over a 22 year period. 
 
-We decided agaisnt using an additional dataset https://diybigdata.net/2019/12/airline-flight-data-analysis-data-preparation-reprise/ which contained extensive flight data including trips, routes, journey distances and arrival and departure cities, because of the size and scope of the files. However, we were able to draw some meaningful insights from the dataset which further informed the analysis and appraoch we adopted in our project. 
+We decided agaisnt using an additional dataset https://diybigdata.net/2019/12/airline-flight-data-analysis-data-preparation-reprise/ which contained extensive flight data including trips, routes, journey distances and arrival and departure cities, because of the size and scope of the files. However, we were able to draw some meaningful insights from the dataset which further informed the analysis and approach we adopted in our project. 
 
 #### PROJECT DATA BASE
 
