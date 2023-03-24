@@ -20,7 +20,7 @@ We decided agaisnt using an additional dataset (https://diybigdata.net/2019/12/a
 
 #### PROJECT DATABASE
 
-For the database we will be using NoSQL, or non-relational database specifically, MongoDB with PyMongo. After cleaning, the csvs will be loaded through the terminal in the resources folder that holds the csvs, then analyzed using a Jupyter Notebook. Specifically, we will run the commandmongoimport --type csv -d airline_data -c fare_prices --headerline --drop average_daily_fares.csv and mongoimport --type csv -d airline_data -c fuel_prices --headerline --drop fuel_prices_since_2000.csv to set up both the database (airline_data) and collections (fare_prices and fuel_prices). Then we will import our necessary dependencies, including PyMongo (from pymongo import MongoClient), PrettyPrint (from pprint import pprint), Pandas (import pandas as pd), datetime (import datetime as dt), and matplotlib (import matplotlib.pyplot as plt). A line of JavaScript is also used to preserve the rendering of the matplotlib line chart. 
+For the database we will be using NoSQL, or non-relational database specifically, MongoDB with PyMongo. After cleaning, the csvs will be loaded through the terminal in the resources folder that holds the csvs, then analyzed using a Jupyter Notebook. Specifically, we will run the command mongoimport --type csv -d airline_data -c fare_prices --headerline --drop average_daily_fares.csv and mongoimport --type csv -d airline_data -c fuel_prices --headerline --drop fuel_prices_since_2000.csv to set up both the database (airline_data) and collections (fare_prices and fuel_prices). Then we will import our necessary dependencies, including PyMongo (from pymongo import MongoClient), PrettyPrint (from pprint import pprint), Pandas (import pandas as pd), datetime (import datetime as dt), and matplotlib (import matplotlib.pyplot as plt). A line of JavaScript is also used to preserve the rendering of the matplotlib line chart. 
 
 
 #### THE PROJECT IN STEPS
@@ -82,11 +82,12 @@ While glancing at the dataframe you can see that fare prices, in nominal terms, 
 #### PROJECT LIMITATIONS AND SETBACKS
 
 During our project we encountered some limitations and setbacks that we have chosen to highlight below: 
+1. We deleted all extraneous files at the end of the project, some of which were used to compose the fuel_prices_since_2000.csv file. While we felt they were not needed in the actual analysis, they are available upon request. 
+2. Because we cleaned our data to not be split by days, months, and years and just maintained a yearly breakdown, our deductions aren't based on 'longitudinal anaysis' like week-to-week or month to month analysis. This can potentially lead to undue emphasis placed on our coclusions. 
+3. Because our sources came from two different places, a lot of work had to go into reformatting both datasets so they are able to merge smoothly for analyses.
+4. The passenger and airline price CSVs were not formatted to cleanly fit into a database format. To clean them, we had to delete the top row as well as the bottom three rows. 
+5. Although we attempted to scrape the data from the BTS, csvs were available for download and proved to be nominally cleaner and easier to deal with. 
+6. Inflation-adjusted numbers (based on March 2023 numbers) were in the data but for purposes of analysis we chose to use nominal prices for our analysis, so that we could highlight the changes in fuel prices as a ratio of ticket prices, especially since prices still went down while fuel prices rose. 
+7. Data measures the ten biggest airports, and pricing data can be more volatile and unexpected at smaller airports. A bigger analysis might focus on these airports as well. 
 
-1. Because we cleaned our data to not be split by days, months, and years and just maintained a yearly breakdown, our deductions aren't based on 'longitudinal anaysis' like week-to-week or month to month analysis. This can potentially lead to undue emphasis placed on our coclusions. 
-2. Because our sources came from two different places, a lot of work had to go into reformatting both datasets so they are able to merge smoothly for analyses.
-3. The passenger and airline price CSVs were not formatted to cleanly fit into a database format. To clean them, we had to delete the top row as well as the bottom three rows. 
-4. Although we attempted to scrape the data from the BTS, csvs were available for download and proved to be nominally cleaner and easier to deal with. 
-5. Inflation-adjusted numbers (based on March 2023 numbers) were in the data but for purposes of analysis we chose to use nominal prices for our analysis, so that we could highlight the changes in fuel prices as a ratio of ticket prices, especially since prices still went down while fuel prices rose. 
-6. Data measures the ten biggest airports, and pricing data can be more volatile and unexpected at smaller airports. A bigger analysis might focus on these airports as well. 
 
